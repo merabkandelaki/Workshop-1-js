@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tasks {
+    padding: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(160, 100%, 75%, 19%);
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.head img {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+}
+
+.task_first, .task_second, .task_third, .task_fourth, .task_fifth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.task_content {
+    width: 500px;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.task_content span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+
+.btn_first, .btn_second, .btn_third, .btn_fourth, .btn_fifth {
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 21px;
+    border: none;
+    background-color: #000;
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn_first:hover, .btn_second:hover, .btn_third:hover, .btn_fourth:hover, .btn_fifth:hover {
+    background-color: #dfaaaa;
+    color: rgb(58, 44, 46);
+    font-size: 21px;
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #000; 
+}
+
+.content {
+    width: 210px;
+    height: 30px;
+    padding: 25px 50px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid #42574c;
+    border-radius: 5px;
+    color: #0d0f0f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
